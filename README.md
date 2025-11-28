@@ -21,11 +21,15 @@ Some additional todos:
 
 ### Copilot reply  
 
+![Demo Screenshot](images/demo_screenshot1.png)
+
 ### approval stages 
+
+![Demo Screenshot](images/demo_screenshot2.png)
 
 ### end result  
 
-
+![Demo Screenshot1](images/demo_screenshot3.png)
 
 
 
