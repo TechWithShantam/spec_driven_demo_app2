@@ -1,0 +1,6 @@
+# Bandit configuration for security scanning
+exclude:
+  - tests
+  - scripts
+skips:
+  - B101  # Example: skip assert usage warning
