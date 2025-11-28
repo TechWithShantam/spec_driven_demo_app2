@@ -4,14 +4,16 @@
 import unittest
 from app import app  # Assuming app.py exposes a Flask app or similar
 
+
 class TestApp(unittest.TestCase):
     def setUp(self):
         self.client = app.test_client()
 
     def test_health_endpoint(self):
-        response = self.client.get('/health')
+        response = self.client.get("/health")
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b'healthy', response.data)
+        self.assertIn(b"healthy", response.data)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

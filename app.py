@@ -2,13 +2,16 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-@app.route('/health')
+
+@app.route("/health")
 def health():
-	return jsonify(status='healthy'), 200
+    return jsonify(status="healthy"), 200
 
-@app.route('/demo')
+
+@app.route("/demo")
 def demo():
-	return jsonify(message='Demo endpoint working!'), 200
+    return jsonify(message="Demo endpoint working!"), 200
 
-if __name__ == '__main__':
-	app.run(host='0.0.0.0', port=8080)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
