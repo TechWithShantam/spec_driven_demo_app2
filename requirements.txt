@@ -1,2 +1,5 @@
 flask
 black
+pytest
+pytest-cov
+bandit
